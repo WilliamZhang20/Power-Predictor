@@ -4,6 +4,10 @@ In this project, I used Bayesian Regression, a.k.a. Gaussian Process Regression,
 
 The input feature vector contains various traits of simulated buildings, and the output is a vector of two elements containing the cooling load & heating load.
 
+Through this project, I gained experience working on both statistics and optimization.
+
+My favorite resource on Gaussian Processes by far is [this one](https://cs.stanford.edu/~rpryzant/blog/gp/gp.html) from Stanford.
+
 The two models experimented with are:
 - Bayesian Regression on a [Gaussian Process](https://scikit-learn.org/stable/modules/gaussian_process.html) (GP) implemented with scikit-learn.
 - A vanilla neural network implemented with PyTorch.
