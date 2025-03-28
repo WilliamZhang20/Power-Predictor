@@ -17,7 +17,7 @@ My favorite source on GPs is [this one](https://cs.stanford.edu/~rpryzant/blog/g
 ### Results & Conclusion
 
 The two models experimented with are:
-- Bayesian Regression on a [Gaussian Process](https://scikit-learn.org/stable/modules/gaussian_process.html) (GP) implemented with scikit-learn, and auto-tuned using the Limited Memory BFGS parameter optimization algorithm..
+- Bayesian Regression on a [Gaussian Process](https://scikit-learn.org/stable/modules/gaussian_process.html) (GP) implemented with scikit-learn, and auto-tuned using the Limited Memory BFGS parameter optimization algorithm.
 - A vanilla neural network implemented with PyTorch, fitted using Mean Squared Error.
 
 The accuracy results in $R^2$ score were very good for both models:
@@ -28,4 +28,4 @@ More information is in the notebook :smile:
 
 Future goal: implement the entire Bayesian Regression algorithm from scratch, using no machine learning libraries.
 
-Overall, this project helped me get into statistics & optimization, a very useful and cool topic!
+Overall, this project helped me get into statistics & optimization, which are both very cool topics that have myriad innovative applications!
