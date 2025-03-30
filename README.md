@@ -17,12 +17,14 @@ My favorite source on GPs is [this one](https://cs.stanford.edu/~rpryzant/blog/g
 ### Results & Conclusion
 
 The two models experimented with are:
-- Bayesian Regression on a [Gaussian Process](https://scikit-learn.org/stable/modules/gaussian_process.html) (GP) implemented with scikit-learn, and auto-tuned using the Limited Memory BFGS parameter optimization algorithm.
+- Bayesian Regression on a [Gaussian Process](https://scikit-learn.org/stable/modules/gaussian_process.html) (GP) implemented with scikit-learn, fitted with the Radial Basis Function (RBF) kernel, and optimized using the Limited Memory BFGS parameter tuning algorithm.
 - A vanilla neural network implemented with PyTorch, fitted using Mean Squared Error.
+- A support vector [regressor](https://www.mathworks.com/help/stats/understanding-support-vector-machine-regression.html) implemented with scikit-learn, and also fitted using the RBF kernel.
 
 The accuracy results in $R^2$ score were very good for both models:
 - For the GP Regression, train set score 0.9966, test set score 0.9893
 - For the neural network, train score 0.9943, test score 0.9912
+- For the Support Vector Regression, train score 0.99230, test score 0.9844
 
 More information is in the notebook :smile:
 
